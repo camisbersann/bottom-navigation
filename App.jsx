@@ -26,6 +26,7 @@ export default function App() {
           tabBarIcon: () => (
             <MaterialCommunityIcons name="account" color={452831} size={32} />
           ),
+          
         }}/>
         <Tab.Screen name="Contact" component={Contact}
         options={{
@@ -33,6 +34,7 @@ export default function App() {
           tabBarIcon: () => (
             <MaterialCommunityIcons name="phone" color={452831} size={32} />
           ),
+          tabBarBadge: 3,
         }}/>
       </Tab.Navigator>
 
